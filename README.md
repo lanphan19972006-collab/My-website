@@ -1,14 +1,11 @@
-# 自我介紹
-# 姓名:
-潘氏玉蘭
-# 學號:
-1141848
-# 照片
-![小時候](images/小時候.jpg.jpg)
-# 組別:
-媒體設計組
-# 興趣:
-看電影， 做飯，做甜點
+# 原圖(使用自己的照片)
+![Anh](images/lanne.jpg)
+# 生成的圖
+![Anh](images/comfyUI2.jpg.png)
+# 完整工作流截圖
+![Anh](images/comfyUI1.jpg.png)
 
+# 個人心得
+- 很有趣
 
 
