@@ -5,39 +5,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>阿蘭的網路名片</title>
 <style>
+* {
+    box-sizing: border-box;
+}
 body {
-    background: #111124;
-    color: white;
-    font-family: Arial;
+    margin: 0;
+    padding: 40px 15px;
+    background: linear-gradient(135deg, #ffe1f0, #f5c5e8, #e8c8ff);
+    color: #75415f;
+    font-family: Arial, sans-serif;
     text-align: center;
-    padding: 30px;
+}
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 35px;
+    background: linear-gradient(145deg, #fff0f8, #ffe0ef);
+    border: 3px solid #ff83c5;
+    border-radius: 25px;
+    box-shadow: 0 0 25px #ff8acb;
 }
 img {
     width: 180px;
+    height: 180px;
+    object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #00eaff;
-    box-shadow: 0 0 20px #00eaff;
+    border: 5px solid #ff8acb;
+    box-shadow: 0 0 25px #ff69b4;
 }
 h1 {
-    color: #ff8bea;
-    text-shadow: 0 0 15px #ff00ff;
-    font-size: 35px;
+    color: #ff4fa3;
+    font-size: 38px;
+    text-shadow: 0 0 12px #ffacd5;
 }
 h2, h3 {
-    color: #00eaff;
+    color: #ed55a5;
+    text-shadow: 0 0 8px #ffb4dc;
 }
-p {
+p, li {
     font-size: 18px;
     line-height: 1.8;
 }
+ul {
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+}
 hr {
-    border: 1px solid #00eaff;
-    margin: 25px;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #ffb1d8, #ed65b5);
+    margin: 30px 0;
+}
+strong {
+    color: #e83e91;
+}
+a {
+    color: #e83e91;
+    font-size: 18px;
+}
+a:hover {
+    color: #ff8acb;
+    text-shadow: 0 0 10px #ff69b4;
+}
+footer {
+    margin-top: 30px;
+    color: #a66b91;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 28px;
+    }
 }
 </style>
 <body>
 <!-- 大頭貼 -->
-  <img images="images/chibi.jpg" alt="玉蘭的大頭貼" width="150">
+  <img src="images/chibi.jpg" alt="玉蘭的大頭貼" width="150">
 
   <h1>嗨，我是玉蘭 👋</h1>
   <p>資訊傳播系第一年級｜<em>正在學寫網頁的新手村村民</em></p>
